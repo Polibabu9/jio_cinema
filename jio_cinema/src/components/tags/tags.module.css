@@ -1,0 +1,35 @@
+:root{
+    --bg-color : rgb(45 36 22);
+}
+
+.tag_contain
+{
+    background-color: var(--bg-color);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+    padding: 0px 3%;
+    position: sticky;
+    z-index: 2;
+    top:70px;
+}
+
+.tags{
+    width:fit-content;
+    background-color: rgb(83 77 67);
+    padding: 10px 12px ;
+    color:white;
+    font-weight: 600;
+    font-size: 12px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.tags:hover{
+    background-color: rgb(148, 142, 133) ;
+    cursor: pointer;
+    scale: 1.1;
+}
