@@ -2,7 +2,7 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 import './carousel.css';
 import sliderImg from "../../assets/carousel_images/bahubali.jpg";
-import sliderImg1 from "/Users/veeraaddala/Coding/Jiocinema_project/Jio_cinema_vite/jio_cinema/src/assets/carousel_images/geetha_govindam.jpg";
+import sliderImg1 from "../../assets/carousel_images/geetha_govindam.jpg";
 
 const Banner = () => {
   return (
