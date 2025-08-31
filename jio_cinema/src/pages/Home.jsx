@@ -19,7 +19,7 @@ export default function Home() {
   useEffect(async ()=>{
 
     try{
-      let movieResponse = await fetch("http://localhost:3000/movies")
+      let movieResponse = await fetch("https://jio-cinema-1.onrender.com/movies")
       let movieData = await movieResponse.json()
       setMovies(movieData)
 
