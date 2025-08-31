@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './feature.module.css'
-import FeaturedShow from "./Featured.jsx"
+import FeaturedShow from '../featuredShow/FeaturedShow.jsx';
 
 const Featured = (props) => {
   return (
