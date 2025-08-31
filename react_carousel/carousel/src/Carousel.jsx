@@ -1,8 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import './carousel.css';
-import sliderImg from "../../assets/carousel_images/bahubali.jpg";
-import sliderImg1 from "/Users/veeraaddala/Coding/Jiocinema_project/Jio_cinema_vite/jio_cinema/src/assets/carousel_images/geetha_govindam.jpg";
+import sliderImg from "../public/1.jpg";
+import sliderImg1 from "../public/2.jpeg";
 
 const Banner = () => {
   return (
@@ -10,28 +9,32 @@ const Banner = () => {
       <section className="slider">
         <Carousel variant="dark">
           <Carousel.Item>
-            <img src={sliderImg} className="c-block w-100" alt="First slide" />
+            <img src={sliderImg} className="d-block w-100" alt="First slide" />
             <Carousel.Caption>
               <div className="slider_des">
                 <h5 className="heading">
-                  Bahubali <span >The Beginning</span>
+                  JOURNEY TO <span>EXPLORE WORLD</span>
                 </h5>
                 <p className="sub_text">
-                Darkness befalls the Mahishmati kingdom after the assassination of beloved King Amarendra Baahubali. However, a deadly battle must be fought to restore justice.
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s,
                 </p>
               </div>
             </Carousel.Caption>
           </Carousel.Item>
 
           <Carousel.Item>
-            <img src={sliderImg1} className="c-block w-100" alt="First slide" />
+            <img src={sliderImg1} className="d-block w-100" alt="First slide" />
             <Carousel.Caption>
               <div className="slider_des">
                 <h5 className="heading">
-                  Geetha Govindam <span></span>
+                  BEAUTIFUL PLACE <span>TO VISIT</span>
                 </h5>
                 <p className="sub_text">
-                  An innocent young lecturer is misunderstood as a pervert and despised by a woman who co-incidentally turns out to be the younger sister of his brother-in-law.
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s,
                 </p>
               </div>
             </Carousel.Caption>

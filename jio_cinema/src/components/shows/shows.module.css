@@ -4,6 +4,7 @@
     background-color: black;
     padding: 10px 2%;
     position: relative;
+    z-index: 1;
 }
 
 .showsParent{

@@ -22,7 +22,6 @@ const Header = (props) => {
                 })
 
             setFilteredItems(filterItems)
-
             }
             else{
                 setFilteredItems([]);
@@ -36,19 +35,19 @@ const Header = (props) => {
     <div className={styles.headermain}>
         <nav className={styles.navigation}>
             <div className={styles.logo}>
-            <img src={JCLogo} alt="logo"/>
-            <div className={styles.premium}>
-                <img src={Crown} alt="premium-img" />
-                <p>Go Premium</p>
+                <img src={JCLogo} alt="logo"/>
+                <div className={styles.premium}>
+                    <img src={Crown} alt="premium-img" />
+                    <p>Go Premium</p>
                 </div>
             </div>
-                <ul className={styles.navLinks}>
-                    {
-                        navLinks.map((link)=>{
-                            return <li className={styles.navLink}>{link}</li>
-                        })
-                    }
-                </ul>
+            <ul className={styles.navLinks}>
+                {
+                    navLinks.map((link)=>{
+                        return <li className={styles.navLink}>{link}</li>
+                    })
+                }
+            </ul>
         </nav>
         <div className={styles.search}>
                 <div className={styles.searchBox}>

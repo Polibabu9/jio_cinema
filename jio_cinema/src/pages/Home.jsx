@@ -4,7 +4,7 @@ import Tags from '../components/tags/Tags'
 import Channels from '../components/channels/Channels'
 import Featured from '../components/feature/Featured'
 import Shows from '../components/shows/Shows'
-import UncontrolledExample from '../components/carousel/Carousell'
+import Carousell from '../components/carousel/Carousell'
 
 export default function Home() {
   
@@ -54,7 +54,7 @@ export default function Home() {
     <>
     <Header movies = {movies}/>
     <Tags/>
-    <UncontrolledExample/>
+    <Carousell/>
     <Channels/>
     <Featured movies = {featuredMovies}/>
     <Shows title= "Drama Movies" movies = {dramaMovies}/>

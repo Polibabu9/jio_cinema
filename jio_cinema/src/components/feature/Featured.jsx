@@ -15,9 +15,6 @@ const Featured = (props) => {
             }
 
         </div>
-
-
-
     </section>
     </>
   )
