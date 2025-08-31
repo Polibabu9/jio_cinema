@@ -28,7 +28,7 @@ const Banner = () => {
             <Carousel.Caption>
               <div className="slider_des">
                 <h5 className="heading">
-                  Geetha Govindam <span></span>
+                  Geetha Govindam 
                 </h5>
                 <p className="sub_text">
                   An innocent young lecturer is misunderstood as a pervert and despised by a woman who co-incidentally turns out to be the younger sister of his brother-in-law.
